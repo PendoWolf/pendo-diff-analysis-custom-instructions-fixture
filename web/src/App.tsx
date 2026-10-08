@@ -41,6 +41,9 @@ export default function App() {
       </p>
 
       <div style={{ display: "flex", gap: 8, justifyContent: "center", flexWrap: "wrap" }}>
+        <button data-testid="btn-copy-count-1791489258290" onClick={() => trackEvent("copy-count-1791489258290")}>
+          Copy count
+        </button>
         <button data-testid="btn-increment" onClick={() => run("increment", api.increment)}>
           Increment
         </button>
