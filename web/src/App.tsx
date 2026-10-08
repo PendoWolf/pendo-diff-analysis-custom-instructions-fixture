@@ -41,6 +41,9 @@ export default function App() {
       </p>
 
       <div style={{ display: "flex", gap: 8, justifyContent: "center", flexWrap: "wrap" }}>
+                    <button data-testid="btn-copy-1791486203751" onClick={() => trackEvent("copy-count-1791486203751")}>
+                      Copy count
+                    </button>
                     <button data-testid="btn-share" onClick={() => trackEvent("share-counter")}>
                       Share
                     </button>
